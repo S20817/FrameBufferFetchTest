@@ -8,7 +8,9 @@ Blur処理PassとCopy処理Passがマージされたことから見ると、Blur
 そのマージは強制的で、近隣ピクセルとやり取りする処理の直後にAddCopyPass(FrameBufferFetch)使うと全部こうなるかと思います。
 
 近隣ピクセルとやり取りする処理の直後にAddCopyPass(FrameBufferFetch)を使ってはいけない？
+
 それがUnityの不具合か仕様か、Unityに問い合わせ中
+
 <img width="818" height="443" alt="image" src="https://github.com/user-attachments/assets/53850e9a-c41e-4f40-a804-07c739ea2097" />
 
 # 再現プロジェクト説明
