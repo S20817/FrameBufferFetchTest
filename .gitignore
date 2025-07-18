@@ -11,6 +11,7 @@ Thumbs.db
 [Bb]in/
 Logs/
 MemoryCaptures/
+.utmp/
 
 # ========== プラットフォーム固有のファイル ==========
 # Windows
