@@ -14,7 +14,11 @@ Blur処理PassとCopy処理Passがマージされたことから見ると、Blur
 
 windowsでは再現しない、Macで開く必要があります。(TileBasedRenderingGPU搭載の端末が必要)
 
-シーン：SampleScene.unity
+シーン: SampleScene.unity
+
+関連ファイル
+- スクリプト: Assets/Scriptsフォルダ以下
+- シェーダー: Assets/Materialsフォルダ以下
 
 再現設定：すでに再現する設定しているので開けば再現するはず
 
