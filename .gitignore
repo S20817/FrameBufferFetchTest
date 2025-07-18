@@ -1,0 +1,59 @@
+# ========== OS固有 ==========
+.DS_Store
+Thumbs.db
+
+# ========== Unity ビルドキャッシュ・一時ファイル ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/
+Logs/
+MemoryCaptures/
+
+# ========== プラットフォーム固有のファイル ==========
+# Windows
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.sln
+
+# macOS
+*.swp
+*.xcworkspace/
+*.xcodeproj/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VSCode
+.vscode/
+
+# ========== Unity Collaborate ==========
+.collab/
+
+# ========== Unity Cloud Build ==========
+.cloud/
+
+# ========== Unity 自動生成メタデータ ==========
+*.unityproj
+*.pidb.meta
+*.booproj.meta
+
+# ========== Crash・ログ ==========
+*.log
+*.stacktrace
+
+# ========== 拡張パッケージキャッシュ ==========
+Assets/Plugins/Editor/JetBrains* 
+
+# ========== その他 ==========
+/sysinfo.txt
