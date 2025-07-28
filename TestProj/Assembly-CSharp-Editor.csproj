@@ -141,13 +141,13 @@
     <None Include="Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Localization/cm.zh-Hans.txt" />
     <None Include="Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Localization/differences.en.txt" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Hub/Editor/6000.0.53f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.54f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>/Applications/Unity/Hub/Editor/6000.0.53f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.54f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Hub/Editor/6000.0.53f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.54f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

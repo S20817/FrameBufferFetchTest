@@ -24,7 +24,9 @@ namespace MyTest
         [SerializeField]
         private RenderPassEvent renderPassEvent = RenderPassEvent.AfterRenderingPostProcessing;
         [SerializeField]
-        private bool useFrameBufferFetch = true;
+        private bool useUnsafePassForBlur = true;
+        [SerializeField]
+        private bool useFrameBufferFetchForCopyBack = true;
 
         private readonly CustomBlurPass _customBlurPass = new();
 
@@ -75,7 +77,8 @@ namespace MyTest
             _customBlurPass.BlurRadius = blurRadius;
             _customBlurPass.filterType = filterType;
             _customBlurPass.renderPassEvent = renderPassEvent;
-            _customBlurPass.UseFrameBufferFetch = useFrameBufferFetch;
+            _customBlurPass.UseUnsafePassForBlur = useUnsafePassForBlur;
+            _customBlurPass.UseFrameBufferFetchForCopyBack = useFrameBufferFetchForCopyBack;
             MyCameraData.scriptableRenderer.EnqueuePass(_customBlurPass);
         }
     }

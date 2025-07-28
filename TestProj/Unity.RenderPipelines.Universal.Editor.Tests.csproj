@@ -41,17 +41,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Library/PackageCache/com.unity.render-pipelines.universal@63585d5be1b1/Tests/Editor/PostProcessDataTests/1.shader" />
-    <None Include="Library/PackageCache/com.unity.render-pipelines.universal@63585d5be1b1/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef" />
-    <None Include="Library/PackageCache/com.unity.render-pipelines.universal@63585d5be1b1/Tests/Editor/PostProcessDataTests/2.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.universal@8a6413315f5b/Tests/Editor/PostProcessDataTests/1.shader" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.universal@8a6413315f5b/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef" />
+    <None Include="Library/PackageCache/com.unity.render-pipelines.universal@8a6413315f5b/Tests/Editor/PostProcessDataTests/2.shader" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Hub/Editor/6000.0.53f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.54f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>/Applications/Unity/Hub/Editor/6000.0.53f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.54f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Hub/Editor/6000.0.53f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.54f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
