@@ -12,6 +12,7 @@ Thumbs.db
 Logs/
 MemoryCaptures/
 .utmp/
+UserSettings/
 
 # ========== プラットフォーム固有のファイル ==========
 # Windows
