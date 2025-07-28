@@ -15,16 +15,9 @@ MemoryCaptures/
 
 # ========== プラットフォーム固有のファイル ==========
 # Windows
-*.user
-*.suo
-*.userprefs
-*.pidb
-*.booproj
-*.svd
 *.pdb
 *.opendb
 *.VC.db
-*.sln
 
 # macOS
 *.swp
@@ -48,6 +41,15 @@ MemoryCaptures/
 *.unityproj
 *.pidb.meta
 *.booproj.meta
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
 
 # ========== Crash・ログ ==========
 *.log
